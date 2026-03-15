@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bricks","folderPath":"folders/Objects/Bricks.yy","name":"Bricks","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Breakthrough",
   "resources":[
@@ -48,11 +49,14 @@
     {"id":{"name":"obj_brick","path":"objects/obj_brick/obj_brick.yy",},},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_powerup","path":"objects/obj_powerup/obj_powerup.yy",},},
+    {"id":{"name":"obj_room_transition_fade","path":"objects/obj_room_transition_fade/obj_room_transition_fade.yy",},},
+    {"id":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},},
     {"id":{"name":"rm_lvl000","path":"rooms/rm_lvl000/rm_lvl000.yy",},},
     {"id":{"name":"rm_lvl001","path":"rooms/rm_lvl001/rm_lvl001.yy",},},
     {"id":{"name":"rm_lvl002","path":"rooms/rm_lvl002/rm_lvl002.yy",},},
     {"id":{"name":"rm_lvltest","path":"rooms/rm_lvltest/rm_lvltest.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"id":{"name":"scr_transistions","path":"scripts/scr_transistions/scr_transistions.yy",},},
     {"id":{"name":"snd_bounce","path":"sounds/snd_bounce/snd_bounce.yy",},},
     {"id":{"name":"snd_break","path":"sounds/snd_break/snd_break.yy",},},
     {"id":{"name":"snd_breaktough","path":"sounds/snd_breaktough/snd_breaktough.yy",},},
