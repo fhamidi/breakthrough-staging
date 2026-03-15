@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_brick_metal",
+  "%Name":"obj_brick_silver",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_brick_metal",
+  "name":"obj_brick_silver",
   "overriddenProperties":[],
   "parent":{
     "name":"Bricks",
     "path":"folders/Objects/Bricks.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_brick",
+    "path":"objects/obj_brick/obj_brick.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_brick_metal",
-    "path":"sprites/spr_brick_metal/spr_brick_metal.yy",
+    "name":"spr_brick_silver",
+    "path":"sprites/spr_brick_silver/spr_brick_silver.yy",
   },
   "spriteMaskId":null,
   "visible":true,

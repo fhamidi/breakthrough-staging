@@ -6,8 +6,8 @@
   "name":"obj_room_transition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Fade",
+    "path":"folders/Objects/Fade.yy",
   },
   "parentObjectId":null,
   "persistent":false,
