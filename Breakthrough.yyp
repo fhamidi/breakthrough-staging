@@ -61,6 +61,7 @@
     {"id":{"name":"snd_breaktough","path":"sounds/snd_breaktough/snd_breaktough.yy",},},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},},
     {"id":{"name":"snd_mus_bgmtest","path":"sounds/snd_mus_bgmtest/snd_mus_bgmtest.yy",},},
+    {"id":{"name":"snd_mus_omake2","path":"sounds/snd_mus_omake2/snd_mus_omake2.yy",},},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
     {"id":{"name":"snd_tough","path":"sounds/snd_tough/snd_tough.yy",},},
     {"id":{"name":"snd_zaball","path":"sounds/snd_zaball/snd_zaball.yy",},},
