@@ -16,7 +16,7 @@
     "name":"obj_room_transition",
     "path":"objects/obj_room_transition/obj_room_transition.yy",
   },
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

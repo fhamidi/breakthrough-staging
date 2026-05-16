@@ -12,8 +12,8 @@
     "path":"folders/Objects/Bricks.yy",
   },
   "parentObjectId":{
-    "name":"obj_brick",
-    "path":"objects/obj_brick/obj_brick.yy",
+    "name":"obj_brick_parent",
+    "path":"objects/obj_brick_parent/obj_brick_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

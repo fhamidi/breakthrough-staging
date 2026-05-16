@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-points = 15;
+points = 150;
