@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_effects",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_effects",
+  "parent":{
+    "name":"Infra",
+    "path":"folders/Scripts/Infra.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
