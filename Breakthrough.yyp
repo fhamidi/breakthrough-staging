@@ -95,6 +95,7 @@
     {"id":{"name":"obj_room_transition_old","path":"objects/obj_room_transition_old/obj_room_transition_old.yy",},},
     {"id":{"name":"obj_state_test_easing","path":"objects/obj_state_test_easing/obj_state_test_easing.yy",},},
     {"id":{"name":"obj_state_test_effects","path":"objects/obj_state_test_effects/obj_state_test_effects.yy",},},
+    {"id":{"name":"obj_state_test_events","path":"objects/obj_state_test_events/obj_state_test_events.yy",},},
     {"id":{"name":"obj_title_button","path":"objects/obj_title_button/obj_title_button.yy",},},
     {"id":{"name":"obj_title_text","path":"objects/obj_title_text/obj_title_text.yy",},},
     {"id":{"name":"rm_brand","path":"rooms/rm_brand/rm_brand.yy",},},
@@ -109,6 +110,7 @@
     {"id":{"name":"rm_start_old","path":"rooms/rm_start_old/rm_start_old.yy",},},
     {"id":{"name":"rm_test_easing","path":"rooms/rm_test_easing/rm_test_easing.yy",},},
     {"id":{"name":"rm_test_effects","path":"rooms/rm_test_effects/rm_test_effects.yy",},},
+    {"id":{"name":"rm_test_events","path":"rooms/rm_test_events/rm_test_events.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"scr_effects","path":"scripts/scr_effects/scr_effects.yy",},},
     {"id":{"name":"scr_game","path":"scripts/scr_game/scr_game.yy",},},
@@ -175,6 +177,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_test_events","path":"rooms/rm_test_events/rm_test_events.yy",},},
     {"roomId":{"name":"rm_brand","path":"rooms/rm_brand/rm_brand.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_level_001","path":"rooms/rm_level_001/rm_level_001.yy",},},
@@ -187,8 +190,8 @@
     {"roomId":{"name":"rm_lvl002_old","path":"rooms/rm_lvl002_old/rm_lvl002_old.yy",},},
     {"roomId":{"name":"rm_lvl003_old","path":"rooms/rm_lvl003_old/rm_lvl003_old.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
-    {"roomId":{"name":"rm_test_effects","path":"rooms/rm_test_effects/rm_test_effects.yy",},},
     {"roomId":{"name":"rm_test_easing","path":"rooms/rm_test_easing/rm_test_easing.yy",},},
+    {"roomId":{"name":"rm_test_effects","path":"rooms/rm_test_effects/rm_test_effects.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
