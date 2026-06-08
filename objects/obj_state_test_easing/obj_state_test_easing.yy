@@ -12,8 +12,8 @@
   "name":"obj_state_test_easing",
   "overriddenProperties":[],
   "parent":{
-    "name":"States",
-    "path":"folders/Objects/States.yy",
+    "name":"Tests",
+    "path":"folders/Objects/States/Tests.yy",
   },
   "parentObjectId":null,
   "persistent":false,

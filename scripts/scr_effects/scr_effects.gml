@@ -2,7 +2,7 @@
  * Represents an effect entry.
  * Keeps track of the owner, hash, step method and interval of a running effect,
  * as well as the elapsed frames since the last call to the step method.
- * @param {asset.gmobject} _owner The instance of `obj_effects` that owns the effect entry.
+ * @param {id.instance} _owner    The instance of `obj_effects` that owns the effect entry.
  * @param {real} _hash            The hash of the name of the effect, or `undefined` if the effect is not named.
  * @param {function} _step_method The method to run at every step.
  * @param {real} _interval        The interval before running the step method, in frames.

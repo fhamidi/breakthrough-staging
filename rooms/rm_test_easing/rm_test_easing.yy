@@ -19,8 +19,8 @@
   ],
   "name":"rm_test_easing",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tests",
+    "path":"folders/Rooms/Tests.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
