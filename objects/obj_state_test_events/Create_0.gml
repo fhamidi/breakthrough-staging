@@ -1,3 +1,6 @@
+// Inherit parent event.
+event_inherited();
+
 // The struct holding the events we have already traced.
 __traced_events = {};
 

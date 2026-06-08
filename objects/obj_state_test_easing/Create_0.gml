@@ -1,3 +1,6 @@
+// Inherit parent event.
+event_inherited();
+
 // The duration of the animations, in frames.
 #macro ANIMATION_DURATION 120
 

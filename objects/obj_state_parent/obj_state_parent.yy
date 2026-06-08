@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_state_test_effects",
+  "%Name":"obj_state_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_state_test_effects",
+  "name":"obj_state_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tests",
-    "path":"folders/Objects/States/Tests.yy",
+    "name":"Infra",
+    "path":"folders/Objects/Infra.yy",
   },
-  "parentObjectId":{
-    "name":"obj_state_parent",
-    "path":"objects/obj_state_parent/obj_state_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,5 +32,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

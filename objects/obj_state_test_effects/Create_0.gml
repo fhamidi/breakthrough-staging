@@ -1,3 +1,6 @@
+// Inherit parent event.
+event_inherited();
+
 // Stop adding effects when we reach that count.
 #macro EFFECT_COUNT_THRESHOLD 64
 
