@@ -88,18 +88,19 @@ function __run_animation(animation_name, easing_func_name)
         ANIMATION_DURATION, _variables, {
             animation_name,
             easing_func_name
-        }), function() {
-            var _keep_going = step();
-            if (!_keep_going) {
-                // Animation ends this frame, restart it after delay.
-                obj_effects.add_named(
-                    context.animation_name, context, function() {
-                        obj_state_test_easing.__run_animation(
-                            animation_name, easing_func_name);
-                        return false;
-                    }, true, ANIMATION_DELAY);
-            }
-            return _keep_going;
-        }, true);
+        }
+    ), function() {
+        var _keep_going = step();
+        if (!_keep_going) {
+            // Animation ends this frame, restart it after delay.
+            obj_effects.add_named(
+                context.animation_name, context, function() {
+                    obj_state_test_easing.__run_animation(
+                        animation_name, easing_func_name);
+                    return false;
+                }, true, ANIMATION_DELAY);
+        }
+        return _keep_going;
+    }, true);
     __animated_variables[$ animation_name] = _variables;
 }

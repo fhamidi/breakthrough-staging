@@ -14,7 +14,7 @@ if (room != rm_gameover) {
 	// Draw the player lives as sprites
 	var _x = GAME_HUD_LEFT + TILE_SIZE;
 
-	repeat(global.player_lives) {
+	repeat (global.player_lives) {
 		draw_sprite_ext(spr_player, 0, _x, room_height - TILE_SIZE, 0.75, 0.75, 0,
 			c_white, 0.625);
 		_x += BRICK_WIDTH * 2;

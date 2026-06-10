@@ -23,6 +23,12 @@
 // animated ball.
 #macro GRAPH_BALL_OFFSET 16
 
+// The scale factor for medium text size.
+#macro TEXT_SCALE_MEDIUM 1.5
+
+// The scale factor for large text size.
+#macro TEXT_SCALE_LARGE 2.0
+
 // Draw pager.
 var _half_room_width = room_width / 2;
 draw_set_color(c_white);
@@ -31,7 +37,7 @@ draw_set_halign(fa_center);
 draw_text_transformed(
     _half_room_width, PAGER_Y,
     $"{__current_page_index + 1}/{array_length(__easing_pages)}",
-    2, 2, 0);
+    TEXT_SCALE_LARGE, TEXT_SCALE_LARGE, 0);
 
 // Draw pager arrows.
 var _half_pager_width = string_width(" 99/99 ");
@@ -39,11 +45,11 @@ draw_set_color(c_yellow);
 draw_set_halign(fa_right);
 draw_text_transformed(
     _half_room_width - _half_pager_width, PAGER_Y,
-    "<", 2, 2, 0);
+    "<", TEXT_SCALE_LARGE, TEXT_SCALE_LARGE, 0);
 draw_set_halign(fa_left);
 draw_text_transformed(
     _half_room_width + _half_pager_width, PAGER_Y,
-    ">", 2, 2, 0);
+    ">", TEXT_SCALE_LARGE, TEXT_SCALE_LARGE, 0);
 
 // Draw footer.
 draw_set_color(c_white);
@@ -51,7 +57,7 @@ draw_set_halign(fa_center);
 draw_text_transformed(
     _half_room_width, FOOTER_Y,
     $"Running Effects: {obj_effects.get_count()}",
-    1.5, 1.5, 0);
+    TEXT_SCALE_MEDIUM, TEXT_SCALE_MEDIUM, 0);
 
 // Compute origin of first graph.
 var _origin_x = GRAPH_MARGIN;
