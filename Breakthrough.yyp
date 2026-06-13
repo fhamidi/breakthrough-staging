@@ -44,6 +44,7 @@
   "resources":[
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
+    {"id":{"name":"progression","path":"notes/progression/progression.yy",},},
     {"id":{"name":"things_to_add","path":"notes/things_to_add/things_to_add.yy",},},
     {"id":{"name":"obj_ball_duplicate","path":"objects/obj_ball_duplicate/obj_ball_duplicate.yy",},},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},

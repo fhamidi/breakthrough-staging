@@ -1,12 +1,16 @@
-Add Title Screen SFX.
-Add Brick breaking SFX.
-Add a sound effect for when the ball goes below the stage.
+Levels:
+Add more levels and polish them.
+- Polish existing Levels.
+- Add Levels 4, 5, and 6.
 
-Add more powerups.
-Example, the Piercing powerup from Arkanoid Doh It Again.
+Background Music:
+Add more background music and implement them.
+- Brand BGM.
+- Title Screen BGM.
+- Level 001 - 009 BGM.
+- Boss Level 010 BGM.
+- Game Over BGM.
 
-Make more levels.
-There is only Level 1 and 2 at the moment.
-
-Add more backgrounds.
-Only the Title Screen has a background, and it doesn't animate.
+Sound Effects:
+Add more sound effect and implement them.
+- Title Screen SFX.

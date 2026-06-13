@@ -1,0 +1,12 @@
+;------------------------------------------------------------------------------
+;       BREAKTHROUGH PROGRESSION
+;
+;       GAME COMPLETION RATE:            010%
+;       LEVEL COMPLETION RATE:           003%
+;       POWERUP COMPLETION RATE:         100%
+;       OBJECT COMPLETION RATE:          020%
+;       SOUND COMPLETION RATE:           010%
+;
+;       GAME STATE:                      ALPHA
+;       PROJECT FINISH DATE:             20??/??/??
+;------------------------------------------------------------------------------
